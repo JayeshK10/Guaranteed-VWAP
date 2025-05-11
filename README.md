@@ -18,7 +18,7 @@ This project implements a complete pipeline for simulating and evaluating Guaran
 
 ## 📄 Report
 
-Please refer to `Guaranteed_VWAP.pdf` for a complete explanation of the methodology, results, and interpretation of the findings.
+Please refer to `Guaranteed_VWAP_report.pdf` for a complete explanation of the methodology, results, and interpretation of the findings.
 
 
 ---
