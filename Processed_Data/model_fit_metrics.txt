@@ -1,0 +1,7 @@
+=== Model Fit / Predictive Accuracy ===
+MSE: 0.001644
+MAE: 0.027050
+LogLikelihood: -49051.404780
+BayesianR2: 0.283196
+MCSE: 0.000290
+Sharpness (Mean Interval Width): 0.143149

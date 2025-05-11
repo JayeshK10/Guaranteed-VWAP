@@ -1,0 +1,208 @@
+
+--- Bucket 0 ---
+bucket: 0
+remaining_shares: 50000
+static_bucket: 0.1088713924631583
+vol_fraction: 0.1088713924631583
+my_current_trade: 5443
+executed_volume_till_now: 5443
+kappa: -0.040040040040040026
+cost: 9.33022060507483
+market_current_trade: 5712
+market_volume_fraction: 0.11424
+impact: 0.4594417743866221
+curr_rate: 4187.398215662127
+market_price: 153.24400329589844
+my_execution_price: 153.70344507028506
+
+--- Bucket 1 ---
+bucket: 1
+remaining_shares: 44557
+static_bucket: 0.09376916970758768
+vol_fraction: 0.10392545994823427
+my_current_trade: 5196
+executed_volume_till_now: 10639
+kappa: -0.040040040040040026
+cost: 16.340171433215307
+market_current_trade: 3543
+market_volume_fraction: 0.07086
+impact: 0.6594378858185006
+curr_rate: 3663.096586142455
+market_price: 157.0499265609571
+my_execution_price: 157.7093644467756
+
+--- Bucket 2 ---
+bucket: 2
+remaining_shares: 39361
+static_bucket: 0.07974927707474536
+vol_fraction: 0.08525488334685684
+my_current_trade: 4262
+executed_volume_till_now: 14901
+kappa: -0.040040040040040026
+cost: 12.766281478881439
+market_current_trade: 3018
+market_volume_fraction: 0.06036
+impact: 0.615278134775689
+curr_rate: 3180.6364702320443
+market_price: 155.96420664371027
+my_execution_price: 156.57948477848595
+
+--- Bucket 3 ---
+bucket: 3
+remaining_shares: 35099
+static_bucket: 0.07091888879538419
+vol_fraction: 0.07437689098145123
+my_current_trade: 3718
+executed_volume_till_now: 18619
+kappa: -0.040040040040040026
+cost: 1.1932498019472286
+market_current_trade: 3322
+market_volume_fraction: 0.06644
+impact: 0.5753346725512031
+curr_rate: 2791.482973685141
+market_price: 161.01501809356523
+my_execution_price: 161.59035276611644
+
+--- Bucket 4 ---
+bucket: 4
+remaining_shares: 31381
+static_bucket: 0.06231479477603605
+vol_fraction: 0.06434572124707608
+my_current_trade: 3217
+executed_volume_till_now: 21836
+kappa: -0.040040040040040026
+cost: 4.031264959633787
+market_current_trade: 2627
+market_volume_fraction: 0.05254
+impact: 0.5396946451056546
+curr_rate: 2459.7718456532643
+market_price: 173.27655208789415
+my_execution_price: 173.8162467329998
+
+--- Bucket 5 ---
+bucket: 5
+remaining_shares: 28164
+static_bucket: 0.060042055027745754
+vol_fraction: 0.060696312689143564
+my_current_trade: 3034
+executed_volume_till_now: 24870
+kappa: -0.040040040040040026
+cost: 11.94926878712406
+market_current_trade: 3230
+market_volume_fraction: 0.0646
+impact: 0.5074794283858401
+curr_rate: 2178.8293665373535
+market_price: 171.24788761630393
+my_execution_price: 171.75536704468976
+
+--- Bucket 6 ---
+bucket: 6
+remaining_shares: 25130
+static_bucket: 0.05535344057507028
+vol_fraction: 0.055361228256932425
+my_current_trade: 2768
+executed_volume_till_now: 27638
+kappa: -2.6026026026026017
+cost: 0.9642887981933425
+market_current_trade: 2308
+market_volume_fraction: 0.04616
+impact: 0.16644485404983644
+curr_rate: 0.010809974138339007
+market_price: 169.2431146517811
+my_execution_price: 169.40955950583094
+
+--- Bucket 7 ---
+bucket: 7
+remaining_shares: 22362
+static_bucket: 0.05284955545543939
+vol_fraction: 0.051473037752909324
+my_current_trade: 2573
+executed_volume_till_now: 30211
+kappa: -0.040040040040040026
+cost: 0.23666044404199216
+market_current_trade: 1939
+market_volume_fraction: 0.03878
+impact: 0.2924682902658139
+curr_rate: 1692.559782275273
+market_price: 182.60665943150508
+my_execution_price: 182.8991277217709
+
+--- Bucket 8 ---
+bucket: 8
+remaining_shares: 19789
+static_bucket: 0.055358986452365845
+vol_fraction: 0.05285897416321834
+my_current_trade: 2642
+executed_volume_till_now: 32853
+kappa: -9.00900900900901
+cost: 0.06352599367624609
+market_current_trade: 3541
+market_volume_fraction: 0.07082
+impact: 0.14604959656268934
+curr_rate: 8.92478308515346e-27
+market_price: 189.6135940426218
+my_execution_price: 189.75964363918447
+
+--- Bucket 9 ---
+bucket: 9
+remaining_shares: 17147
+static_bucket: 0.06533652222995115
+vol_fraction: 0.062171629285220104
+my_current_trade: 3108
+executed_volume_till_now: 35961
+kappa: -0.040040040040040026
+cost: 0.15214630359156717
+market_current_trade: 2970
+market_volume_fraction: 0.0594
+impact: 0.2537671105001046
+curr_rate: 1277.479594754456
+market_price: 185.16265776121784
+my_execution_price: 185.41642487171794
+
+--- Bucket 10 ---
+bucket: 10
+remaining_shares: 14039
+static_bucket: 0.07048244112472599
+vol_fraction: 0.06720130549675293
+my_current_trade: 3360
+executed_volume_till_now: 39321
+kappa: -40.0
+cost: 1.9721522630525295e-31
+market_current_trade: 3405
+market_volume_fraction: 0.0681
+impact: 0.12688355525005213
+curr_rate: 1.0754826387307172e-168
+market_price: 190.18575074448884
+my_execution_price: 190.3126342997389
+
+--- Bucket 11 ---
+bucket: 11
+remaining_shares: 10679
+static_bucket: 0.08509494341689658
+vol_fraction: 0.08275802540670461
+my_current_trade: 4137
+executed_volume_till_now: 43458
+kappa: 1e-06
+cost: 0
+market_current_trade: 3111
+market_volume_fraction: 0.06222
+impact: 0.2034941673679189
+curr_rate: 821.4615384400436
+market_price: 185.778978653698
+my_execution_price: 185.98247282106593
+
+--- Bucket 12 ---
+bucket: 12
+remaining_shares: 6542
+static_bucket: 0.13985853290089348
+vol_fraction: 0.13084
+my_current_trade: 6542
+executed_volume_till_now: 50000
+kappa: 1e-06
+cost: 0
+market_current_trade: 5867
+market_volume_fraction: 0.11734
+impact: 0.2610200037809465
+curr_rate: 503.23076921684645
+market_price: 181.45283875635198
+my_execution_price: 181.71385876013292

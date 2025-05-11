@@ -1,0 +1,73 @@
+==================================================
+        GVWAP Project — Test Suite Overview
+==================================================
+
+This folder contains unit and integration tests for validating individual components of the Guaranteed VWAP (GVWAP) simulation framework. Each test targets a specific module, ensuring correctness, robustness, and reproducibility of the pipeline.
+
+--------------------------------------------------
+Volume Static Model Tests
+--------------------------------------------------
+
+1. volume_static_test.py
+   - Tests the BayesianDirichletStatic model.
+   - Verifies if it correctly learns and predicts intraday volume fractions from synthetic or TAQ data.
+
+2. volume_static_eval_test.py
+   - Evaluates predictive performance of the static model.
+   - Metrics used: MSE, MAE, log-likelihood, Bayesian R².
+
+--------------------------------------------------
+Volume Dynamic Model Tests
+--------------------------------------------------
+
+3. volume_dynamic_data_process.py
+   - Tests functions like `process_data()` or `generate_training_data()`.
+   - Validates correct extraction of features from market volume curves.
+
+4. volume_dynamic_ridge.py
+   - Tests dynamic models such as BayesianRidgeDynamicSimple and DynamicVolumeModel.
+   - Ensures correct feature extraction, model fitting, and prediction logic at each bucket.
+
+--------------------------------------------------
+Market & Execution Simulation Tests
+--------------------------------------------------
+
+5. test_arrival_price.py
+   - Tests `compute_arrival_price()` on quote data.
+   - Ensures correct average mid-quote is computed from post-9:30 AM quotes.
+
+6. test_simulate_price_path.py
+   - Validates `simulate_price_path()` for deterministic and stochastic behavior.
+   - Confirms path length, volatility, and price consistency with a fixed seed.
+
+7. test_simulate_market_volume.py
+   - Tests `simulate_market_volume_log_normal()`.
+   - Checks for positive outputs, proper scaling with sigma, and reproducibility.
+
+--------------------------------------------------
+Execution Strategy & Impact Tests
+--------------------------------------------------
+
+8. test_optimal_kappa_cost.py
+   - Tests `get_optimal_kappa_and_cost_from_trajectory_only()`.
+   - Confirms it finds the best κ minimizing deviation from market VWAP.
+
+9. test_execution_impact_with_decay.py
+   - Verifies `compute_execution_impact_with_decay()`.
+   - Checks decaying impact logic across buckets using known formulas.
+
+--------------------------------------------------
+VWAP Simulation
+--------------------------------------------------
+
+10. test_vwap_simulation.py
+    - End-to-end test of the VWAP execution pipeline.
+    - Mocks static/dynamic models and validates final execution cost, VWAP tracking, and risk computation.
+
+--------------------------------------------------
+Usage Notes
+--------------------------------------------------
+
+- These tests ensure correctness and robustness before running live simulations.
+- You can execute them via `pytest` or individual script runs for debugging.
+- Recommended: isolate any filesystem-dependent tests using mock objects.
